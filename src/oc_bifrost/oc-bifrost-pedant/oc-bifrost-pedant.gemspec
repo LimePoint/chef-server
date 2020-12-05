@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.add_dependency('rspec', '~> 2.11.0')
   s.add_dependency('activesupport', '~> 3.2.8') # For active_support/concern
   s.add_dependency('mixlib-config', '~> 1.1.2')
-  s.add_dependency('rest-client', '~> 1.6.7')
+  s.add_dependency('rest-client', '>= 1.6.7', '< 2.2.0')
   s.add_dependency('rspec_junit_formatter', '~> 0.1.1')
   s.add_dependency('net-http-spy', '~> 0.2.1')
   s.add_dependency('rspec-rerun', '= 0.1.1')
