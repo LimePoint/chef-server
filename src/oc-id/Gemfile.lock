@@ -233,7 +233,7 @@ GEM
       thin (~> 1.5.0)
     method_source (0.8.2)
     mime-types (1.25.1)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.5.1)
     minitest (5.10.1)
     mixlib-archive (0.4.1)
       mixlib-log
@@ -257,8 +257,9 @@ GEM
       net-ssh-gateway (>= 1.2.0)
     net-telnet (0.1.1)
     newrelic_rpm (3.16.1.320)
-    nokogiri (1.7.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.11.4)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     ohai (8.23.0)
       chef-config (>= 12.5.0.alpha.1, < 13)
       ffi (~> 1.9)
@@ -304,6 +305,7 @@ GEM
     public_suffix (2.0.5)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
+    racc (1.5.2)
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
